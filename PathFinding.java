@@ -157,7 +157,7 @@ public class PathFinding
             	System.out.println();
             }
 
-            System.out.println("\n\nTotal of minimum path is " + minSigma + " and is pictured aboved");
+            System.out.println("\n\nTotal of minimum path is " + minSigma + " and path taken is pictured above.");
             
 //Code to compare left and right values and iterate the max path summation 
             
@@ -194,7 +194,6 @@ public class PathFinding
     	        		maxSigma = maxRightNextRowPosition;
     	        		
     	        		maxArray[maxCounter] = maxZ;
-
     	        		maxTempPosition = maxZ;         	
                 	}		
     	        	
@@ -257,7 +256,7 @@ public class PathFinding
         	}
         	System.out.println();
         }
-        System.out.println("\n\nTotal of maximum path is " + maxSigma + " and is pictured aboved");
+        System.out.println("\n\nTotal of maximum path is " + maxSigma + " and path taken is pictured above.");
                 
 	}
         
